@@ -1,6 +1,7 @@
 import React, { Component } from "react";
 import NavBar from "../../Components/NavBar";
 import PopOver from "../../Components/PopOver";
+import Card from "../../Components/Card";
 import { Container, Row, Col } from 'reactstrap';
 import { Jumbotron } from 'reactstrap';
 import Todo from "../../Components/Todo";
@@ -59,6 +60,7 @@ class checkOut extends Component {
           
           </Container>
         </Jumbotron>
+        <Card />
       </>
 
     )
