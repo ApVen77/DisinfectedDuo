@@ -8,7 +8,14 @@ h1  {
 
 
 body {
-margin: 0%
+margin: 0%;
+background-color: lime;
+
+}
+
+.jumbotron {
+
+    margin-top: 80px;
 
 }
 

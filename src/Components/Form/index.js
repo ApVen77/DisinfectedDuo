@@ -3,7 +3,13 @@ import React, { useState } from 'react';
 import { Col, Row, Button, Form, FormGroup, Label, Input, Container } from 'reactstrap';
 import "./form.css";
 
+// var myButton = document.getElementsByClassName ("Button")
 
+function myButton() { 
+  var name= "April";
+  alert('Welcome, ', name);
+
+}
 
 // class NameForm extends React.Component {
 //     constructor(props) {
@@ -77,7 +83,9 @@ const Example = (props) => {
               </Col>
             </Row>
             
-            <Button style={{matginTop: 15}}>Check us Out!</Button>
+            <div className= "Button">
+              <Button onClick= {myButton} style={{marginTop: 15}}>Check us Out!</Button>
+              </div>
           </Form>
         </Col>
       </Row>

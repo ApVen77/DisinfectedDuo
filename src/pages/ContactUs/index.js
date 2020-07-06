@@ -27,16 +27,16 @@ class contactus extends Component {
         <NavBar />
 
         <Container>
-          <h1>What's up?</h1>
+          <h1> Book Today!</h1>
           <Row>
-            <Col md={4}>
+            <Col md={6}>
               <Form />
 
             </Col>
           
 
           
-            <Col md={8}>
+            <Col md={6}>
               <Calender />
               <PopOver />
 
