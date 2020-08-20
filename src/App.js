@@ -52,7 +52,7 @@ function App() {
         </Router>
        
       
-     
+      <hr></hr>
       <Footer />
     </>
   );

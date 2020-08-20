@@ -19,6 +19,8 @@ import { FormGroup, Label, Input, Button } from 'reactstrap';
 
 
 
+
+
 class contactus extends Component {
   render() {
     return (
@@ -38,7 +40,8 @@ class contactus extends Component {
           
             <Col md={6}>
               <Calender />
-              <PopOver />
+              <PopOver/>
+              <button class="btn btn-primary startGame">"Start Game" </button>
 
             </Col>
           </Row>

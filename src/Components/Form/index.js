@@ -9,6 +9,12 @@ function myButton() {
   var name= "April";
   alert('Welcome, ', name);
 
+
+}
+
+function myFunction() {
+  var x = document.getElementsById("myBtn").textContent;
+  document.getElementsByClassName("demo").innerHTML = x;  
 }
 
 // class NameForm extends React.Component {
@@ -34,6 +40,7 @@ function myButton() {
 const Example = (props) => {
   
   return (
+    <>
     <Container>
       <Row>
         <Col md={6}>
@@ -83,20 +90,30 @@ const Example = (props) => {
               </Col>
             </Row>
             
-            <div className= "Button">
-              <Button onClick= {myButton} style={{marginTop: 15}}>Check us Out!</Button>
-              </div>
-          </Form>
-        </Col>
-      </Row>
+    
+              <p className= "demo"></p>
+              <button onClick= "myFunction()" id= "myBtn">Check us Out! </button> 
+              {
+              //   var name = 'April'
+              //   var message = "Welcome!";
+              //   var hello= "Please Wait...";
+                
+              //   alert (message +  name +  hello);
+
+              //
+};
+              
+              </Form>
+              </Col>
+              </Row>
       
       </Container>
-      
-  );
+      </>
+  )
+  
+
+
 }
-
-
-
 export default Example;
 
 

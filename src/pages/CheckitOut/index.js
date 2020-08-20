@@ -49,21 +49,13 @@ class checkOut extends Component {
             </Col>
           </Row>
         </Container>
-        <Jumbotron fluid style={{ backgroundColor: "tomato", marginTop: "5px", height: "100%" }}>
-          <Container fluid>
-            <Todo />
-            <a id="standaloneRegistration_createNew" href="javascript:void(0);" role="button" class="btn btn-secondary pill formCard--button">Create an account</a>
-          <Row>
-            <Col md={6}>
-            </Col>
-          </Row>
-          
-          </Container>
-        </Jumbotron>
+
         <Card />
+
       </>
+
 
     )
   }
 }
-export default checkOut; 
+export default checkOut;  

@@ -1,0 +1,17 @@
+.calendar-days_of_week_day {
+    font-size: large;
+    display: inline;
+    flex-wrap: wrap;
+    word-spacing: 1em;
+   font-size: medium;
+   letter-spacing: 0.2em;
+   
+}
+
+.calendar {
+    
+    margin: 0px;
+    margin-bottom: 30px;
+    letter-spacing: 0.2em;
+    padding: 1em;
+}

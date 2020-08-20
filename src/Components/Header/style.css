@@ -16,6 +16,8 @@ background-color: lime;
 .jumbotron {
 
     margin-top: 80px;
+    
+    border-radius: 15px;
 
 }
 

@@ -25,7 +25,7 @@ function head() {
 
             <Container>
                 <h1 style={{ float: "right", fontFamily: "Lobster, cursive" }}>It is currently {date.getHours() % 12} :  {date.getMinutes()} </h1>
-                <Jumbotron fluid style={{ backgroundColor: "rgb(248, 235, 164)", marginTop: "5px", height: "150%" }}>
+                <Jumbotron fluid style={{ backgroundColor: "rgb(248, 235, 164)", marginTop: "5px", height: "150%", border: "solid rgb(250, 228, 105) 40px", borderRadius: "15px 50px"}}>
                     <Container fluid>
                         <img style={{ height: 450 }} src={logo} alt="LOGO" />
                         <hr></hr>
@@ -41,7 +41,7 @@ function head() {
 
 
 
-
+            <hr></hr>
 
 
 
@@ -86,9 +86,9 @@ function head() {
                     <hr></hr>
                 </Row>
 
-
+                <hr></hr>
                 <Col md="12">
-                    <Jumbotron fluid style={{ backgroundColor: "rgb(235, 183, 88)", marginTop: "20px", height: "150%" }}>
+                    <Jumbotron fluid style={{ backgroundColor: "rgb(235, 183, 88)", marginTop: "20px", height: "150%"}}>
                         <Container fluid>
                             <p style={{ fontSize: "40px" }}>With   The Disinfectant Divas</p>
                             <ul style={{ listStyleType: "square" }}>
@@ -101,7 +101,7 @@ function head() {
                         </Container>
                     </Jumbotron>
                 </Col>
-
+                <hr></hr>
                 <Row>
                     <Col md="3">
                         <img style={{ width: "270px", height: "200px", position: "center", marginLeft: "0px", marginBottom: "20px", borderRadius: "100px" }} src="https://previews.123rf.com/images/valentint/valentint1408/valentint140801325/31120474-call-now-icon-internet-button-on-white-background-.jpg" />
@@ -125,29 +125,29 @@ function head() {
                 </Row>
 
             </Container>
-
+            <br></br>
             <Container>
                 <Row>
                     <Col md="12" >
 
                         <h2 style={{ float: "left", marginTop: "20px" }} >We Do Carseats! </h2>
-                        <Jumbotron style={{ backgroundColor: "pink" }}>
-                            <img style={{ marginTop: "25px", width: "800px", height: "250px", marginLeft: "0px", marginBottom: "10px", opacity: 0.5 }} src="https://images-na.ssl-images-amazon.com/images/I/610nKOXTuyL._AC_SL1052_.jpg" />
+                        <Jumbotron style={{ backgroundColor: "pink", border: "solid rgb(250, 228, 105) 20px" }}>
+                            <img style={{ marginTop: "25px", width: "800px", height: "250px", marginLeft: "0px", marginBottom: "10px", opacity: 0.5, border: "solid rgb(250, 228, 105) 20px" }} src="https://images-na.ssl-images-amazon.com/images/I/610nKOXTuyL._AC_SL1052_.jpg" />
                         </Jumbotron>
 
                         <h2>Operate on the days that work for you...</h2>
                         <h3>Thursday-Sunday. Schedule us now!</h3>
                         <Jumbotron>
-                            <img style={{ marginTop: "25px", width: "800px", height: "250px", marginLeft: "0px", marginBottom: "10px", opacity: 0.5 }} src=" https://i0.wp.com/waywardinspiration.com/wp-content/uploads/2019/06/Days-of-the-Week-Correspondences-_-Wayward-Inspiration-Blog.png?fit=560%2C315&ssl=1" />
+                            <img style={{ marginTop: "25px", width: "800px", height: "250px", marginLeft: "0px", marginBottom: "10px", opacity: 0.5, border: "solid rgb(250, 228, 105) 20px" }} src=" https://i0.wp.com/waywardinspiration.com/wp-content/uploads/2019/06/Days-of-the-Week-Correspondences-_-Wayward-Inspiration-Blog.png?fit=560%2C315&ssl=1" />
                         </Jumbotron>
                         <h2>From our family Care to yours. </h2>
                         <Jumbotron>
-                            <img style={{ marginTop: "25px", width: "800px", height: "250px", marginLeft: "0px", marginBottom: "10px", opacity: 0.5 }} src="https://hips.hearstapps.com/hmg-prod.s3.amazonaws.com/images/man-cleaning-car-interior-royalty-free-image-1584446612.jpg?crop=1.00xw:0.752xh;0,0.0930xh&resize=1200:*" />
+                            <img style={{ marginTop: "25px", width: "800px", height: "250px", marginLeft: "0px", marginBottom: "10px", opacity: 0.5, border: "solid rgb(250, 228, 105) 20px" }} src="https://hips.hearstapps.com/hmg-prod.s3.amazonaws.com/images/man-cleaning-car-interior-royalty-free-image-1584446612.jpg?crop=1.00xw:0.752xh;0,0.0930xh&resize=1200:*" />
                         </Jumbotron>
                     </Col>
                 </Row>
             </Container>
-
+            <br></br>
             <Container>
                 <Row>
                     <Col md="4">
@@ -162,7 +162,7 @@ function head() {
                             <img style={{ width: "200px", height: "250px", position: "center", marginLeft: "0px", marginBottom: "20px", borderRadius: "150px" }} src={fact1} alt="Image" />
                         </Jumbotron>
                     </Col>
-
+                    <br></br>
                     <Col md="4">
                         <Jumbotron style={{ backgroundColor: "rgb(131, 32, 32)" }}>
                             <img style={{ width: "200px", height: "250px", position: "center", marginLeft: "0px", marginBottom: "20px", borderRadius: "150px" }} src={fact1} alt="Image" />
